@@ -2,20 +2,6 @@
 
 ### Task 1: extend the english grammar
  
-[JSGF text file](https://github.com/TianaQ/nlu-challenge/blob/master/JSGF_en_ext.txt), [test script in Python](https://github.com/TianaQ/nlu-challenge/blob/master/test.py)  
-
-##### Examples:  
-```
-we 'd like to listen to electro
-i 'd like to hear pop please
-i would like to hear rumours by cake please
-would you please put on cake please
-can you put on let it be
-could you please put on some reggue please
-could you put on bat out of hell please
-could you please play thriller by radio head
-would you put on thriller by radio head please
-```
 ##### Questions: 
 
 1. Extend the above grammar to cover the following kind of utterances:
