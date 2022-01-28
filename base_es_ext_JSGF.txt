@@ -1,0 +1,52 @@
+#JSGF V1.0 utf-8 en;
+
+grammar music_play;
+
+/**
+  * Danilo Diaz
+  *
+  * Task 2
+  */
+
+public <music_play> =
+    (<Command> | <Intent>) <Object> [porfavor];
+
+<Command> =
+    [quiero | reproduce] [porfavor] (toca | pon);
+
+
+<Intent> = 
+    (me) (quiero) (escuchar| oir);
+
+
+<Object> = [<album> by] <artist> | 
+    <album> |
+    <song> | 
+    [some] <genre> [music];
+
+
+
+<artist> =
+    beatles |
+    radio head |
+    cake |
+    pink floyd;
+
+<song> =
+    calladita |
+    la liga |
+    somos |
+    hey jude;
+
+<genre> =
+    reggue |
+    pop |
+    electro |
+    gospel |
+    ballenato |
+    reggeton;
+
+<album> =
+    Los bellacos |
+    Humano |
+    Rumores ;

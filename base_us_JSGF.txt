@@ -1,0 +1,25 @@
+#JSGF V1.0 utf-8 en;
+grammar music_play;
+
+/**
+  * Danilo Diaz
+  *
+  *
+  */
+
+public <music_play> =
+	[can you] (play | put on) (<artist> | <song>);
+
+<artist> =
+	beatles |
+	radio head |
+	cake |
+	pink floyd;
+
+<song> =
+	confortably numb |
+	paranoid android |
+	let it be |
+	hey jude;
+
+

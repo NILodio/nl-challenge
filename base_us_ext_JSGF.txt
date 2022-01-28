@@ -1,0 +1,51 @@
+#JSGF V1.0 utf-8 en;
+
+grammar music_play;
+
+/**
+  * Danilo Diaz
+  *
+  * Task 1
+  */
+
+public <music_play> =
+    (<Command> | <Intent>) <Object> [please];
+
+<Command> =
+    [can you | could you | would you] [please] (play [me | us]| put on);
+
+
+<Intent> = 
+    (i | we) (want | ('d | would) like) to (listen to| hear);
+
+
+<Object> = [<album> by] <artist> | 
+    <album> |
+    <song> | 
+    [some] <genre> [music];
+
+
+
+<artist> =
+    beatles |
+    radio head |
+    cake |
+    pink floyd;
+
+<song> =
+    comfortably numb |
+    paranoid android |
+    let it be |
+    hey jude;
+
+<genre> =
+    reggue |
+    pop |
+    electro |
+    gospel |
+    classic;
+
+<album> =
+    Thriller |
+    Bat Out of Hell |
+    Rumours ;
