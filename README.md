@@ -35,7 +35,7 @@ could you put on bat out of hell please
 could you please play thriller by radio head
 would you put on thriller by radio head please
 ```
-[JSGF text file](https://github.com/TianaQ/nlu-challenge/blob/master/JSGF_en_ext.txt), [test script in Python](https://github.com/TianaQ/nlu-challenge/blob/master/test.py)  
+[JSGF text file](https://github.com/NILodio/nl-challenge/blob/master/base_us_ext_JSGF.txt), [test script in Python](https://github.com/NILodio/nl-challenge/blob/master/solution.py)  
 
 2. Do you see any limitations on how the above grammar could scale up, as you keep adding entities to
 provide coverage for building the final statistical models?
@@ -61,6 +61,7 @@ toca pink floyd
 toca la liga porfavor
 reproduce toca some gospel music
 ```
+[JSGF text file](https://github.com/NILodio/nl-challenge/blob/master/base_es_ext_JSGF.txt), [test script in Python](https://github.com/NILodio/nl-challenge/blob/master/solution.py)  
 
 * Grammarly Spanish is more complex than English, there are so many combinations and idioms to be aware of.
 
